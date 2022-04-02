@@ -37,6 +37,7 @@ The following **optional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](http://g.recordit.co/I8th2q8Y4j.gif)
+![](http://g.recordit.co/MUPQj4LESV.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
