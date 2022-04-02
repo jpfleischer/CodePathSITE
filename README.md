@@ -67,7 +67,7 @@ The game right now is simple but is able to be infinitely expanded with many fea
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://youtu.be/fvAjN2w9dm4)
 
 
 ## License
