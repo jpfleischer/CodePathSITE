@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Epic Swag Color Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <img src="yellow.png" width="500" height="500"> 
+    <img src="blue.png" width="500" height="500"> 
+    <img src="pink.png" width="500" height="500"> 
+    <img src="green.png" width="500" height="500"> 
+    <h1>
+      The Epic Swag Color Game
+    </h1>
+    <p>
+      Are you an epic gamer who likes to play games? Of course you are!
+      Try out this color memory game right here, right now. Click Start,
+      memorize the pattern, and play it back by pressing on the colors.
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" 
+              onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)"
+              onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)"
+              onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)"
+              onmouseup="stopTone()"></button>
+      
+    </div>
+  </body>
+</html>
